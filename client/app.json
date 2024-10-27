@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Placement Project",
+    "slug": "placement-project",
+    "privacy": "public",
+    "plugins": [
+      [
+        "expo-notifications"
+      ]
+    ],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.7.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "Placement Project",
+    "extra": {
+      "eas": {
+        "projectId": "11d9668a-4169-450d-b73e-367db2e6ed32"
+      }
+    },
+    "android": {
+      "package": "com.mahammadmurshid03.placementproject"
+    }
+  }
+}
